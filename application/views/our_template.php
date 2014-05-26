@@ -32,7 +32,7 @@ a:hover
 </style>
 </head>
 <body>
-<!-- Beginning header -->
+<!-- Beginning header 
     <div>
         <a href='<?php echo site_url('examples/offices_management')?>'>Offices</a> | 
         <a href='<?php echo site_url('examples/employees_management')?>'>Employees</a> |
@@ -48,7 +48,7 @@ a:hover
         <?php echo $output; ?>
  
     </div>
-<!-- Beginning footer -->
+<!-- Beginning footer 
 <div>Footer</div>
 <!-- End of Footer -->
 </body>

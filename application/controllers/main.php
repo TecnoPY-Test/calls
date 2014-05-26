@@ -43,9 +43,12 @@ class Main extends CI_Controller {
     {
         $this->grocery_crud->set_table('usuarios');
 		$this->grocery_crud->set_subject('Usuario');
-		$this->grocery_crud->set_theme('twitter-bootstrap');
+		$this->grocery_crud->set_theme('datatables');
 		$this->grocery_crud->columns('login','password','email','last_login','avatar'); //para list
 		$this->grocery_crud->fields('login','password','email','last_login','avatar'); //para edit
+		$this->grocery_crud->field_type('password', 'password');
+		$this->grocery_crud->field_type('password', 'readonly');
+		
        /* 
 		$this->grocery_crud->display_as('lastName','Last Name');
         $this->grocery_crud->display_as('firstName','First Name');
