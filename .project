@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>calls</name>
+=======
+	<name>calls2</name>
+>>>>>>> 93df223c437aa958351ec602eb300852fcd1fd77
 	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
 		<buildCommand>
+<<<<<<< HEAD
+=======
+			<name>com.aptana.editor.php.aptanaPhpBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+>>>>>>> 93df223c437aa958351ec602eb300852fcd1fd77
 			<name>com.aptana.ide.core.unifiedBuilder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
 	</buildSpec>
 	<natures>
+<<<<<<< HEAD
+=======
+		<nature>com.aptana.editor.php.phpNature</nature>
+>>>>>>> 93df223c437aa958351ec602eb300852fcd1fd77
 		<nature>com.aptana.projects.webnature</nature>
 	</natures>
 </projectDescription>

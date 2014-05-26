@@ -37,6 +37,12 @@ CREATE TABLE `employees` (
 ) ENGINE=MyISAM AUTO_INCREMENT=1703 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
+<<<<<<< HEAD
+=======
+--
+-- Dumping data for table `employees`
+--
+>>>>>>> 93df223c437aa958351ec602eb300852fcd1fd77
 
 LOCK TABLES `employees` WRITE;
 /*!40000 ALTER TABLE `employees` DISABLE KEYS */;
