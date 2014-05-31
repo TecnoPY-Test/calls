@@ -36,7 +36,7 @@
 				<?php }?>
 
 				<?php if(!$unset_edit){?>
-					<a href="<?php echo $row->edit_url?>" class="edit_button ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-primary" role="button">
+					<a href="<?php echo $row->edit_url?>" class="edit_button ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-primary" role="button" >
 						<span class="ui-button-icon-primary ui-icon ui-icon-pencil"></span>
 						<span class="ui-button-text">&nbsp;<?php echo $this->l('list_edit'); ?></span>
 					</a>
